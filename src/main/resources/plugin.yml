@@ -1,0 +1,12 @@
+name: Itemupgrade
+version: '${project.version}'
+main: com.rin.itemupgrade.Itemupgrade
+api-version: 1.19
+depend: [ MMOItems ]
+authors: [ Rin_Pr ]
+description: Upgrade mmoitems with gui.
+commands:
+  getitem:
+    description: get mmo items
+  upgradeitem:
+    description: upgrade mmo items by 1 level
